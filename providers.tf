@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region                  = "sa-east-1"
+  region                  = "us-east-1"
   # Windows
   shared_credentials_file = "c:/Users/%userprofile%/.aws/credentials"
   # Linux
