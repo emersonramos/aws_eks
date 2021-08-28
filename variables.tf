@@ -3,7 +3,7 @@ variable "vpc_name" {
 }
 
 variable "aws_region" {
-    default = "sa-east-1"
+    default = "us-east-1"
 }
 
 variable "cluster_name" {
@@ -11,12 +11,12 @@ variable "cluster_name" {
 }
 
 variable "kubeversion" {
-    default = "1.20"
+    default = "1.21"
 }
 
 variable "nodes_instances_sizes" {
   default = [
-    "t3.medium"
+    "t2.micro"
   ]
 }
 
